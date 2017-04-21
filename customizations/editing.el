@@ -75,3 +75,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; Rainbow Delimiters
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
