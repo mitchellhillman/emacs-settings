@@ -74,7 +74,14 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    multiple-cursors
+    flycheck
+    js2-mode
+    json-mode
+    pug-mode
+    web-mode))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
