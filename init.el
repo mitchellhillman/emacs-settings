@@ -78,7 +78,6 @@
 
     multiple-cursors
     flycheck
-    js2-mode
     json-mode
     pug-mode
     web-mode))
@@ -141,9 +140,6 @@
 
 ;; For editing lisps
 (load "elisp-editing.el")
-
-;; For editing JavaScript
-(load "js-editing.el")
 
 ;; Langauage-specific
 (load "setup-clojure.el")
