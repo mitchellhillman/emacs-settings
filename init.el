@@ -163,7 +163,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (folding json-mode js2-mode web-mode flycheck ## multiple-cursors pug-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+    (find-file-in-repository find-file-in-project folding json-mode js2-mode web-mode flycheck ## multiple-cursors pug-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
