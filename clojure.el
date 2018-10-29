@@ -1,6 +1,6 @@
-;;;;
-;; Clojure
-;;;;
+;;;;;;;;;;;;;
+;; Clojure ;;
+;;;;;;;;;;;;;
 
 ;; Enable paredit for Clojure
 (add-hook 'clojure-mode-hook 'enable-paredit-mode)
@@ -25,9 +25,10 @@
             (define-clojure-indent (fact 1))
             (define-clojure-indent (facts 1))))
 
-;;;;
-;; Cider
-;;;;
+
+;;;;;;;;;;;
+;; Cider ;;
+;;;;;;;;;;;
 
 ;; provides minibuffer documentation for the code you're typing into the repl
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
