@@ -1,9 +1,16 @@
+;; disable auto save
+(setq auto-save-default nil)
+(setq make-backup-files nil)
+
+;; word wrap OFF
+(setq-default truncate-lines 1)
+
 ;; size window
 (setq initial-frame-alist
-      '((width . 106) ; chars
+      '((width . 80) ; chars
         (height . 60) ; lines        
-        (left . 100)
-        (top . 50)))
+        (left . 0)
+        (top . 0)))
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 140)
@@ -65,4 +72,3 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
 (load-theme 'tomorrow-night-bright t)
-
