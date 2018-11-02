@@ -13,6 +13,7 @@
 
 (defvar my-packages
   '(exec-path-from-shell
+    auto-complete
     paredit
     clojure-mode
     clojure-mode-extra-font-locking
@@ -41,7 +42,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (smex web-mode json-mode flycheck rainbow-delimiters cider clojure-mode-extra-font-locking clojure-mode paredit))))
+    (magit smex web-mode json-mode flycheck rainbow-delimiters cider clojure-mode-extra-font-locking clojure-mode paredit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

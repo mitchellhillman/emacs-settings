@@ -1,3 +1,6 @@
+;; enable auto complete
+(ac-config-default)
+
 ;; disable auto save
 (setq auto-save-default nil)
 (setq make-backup-files nil)
